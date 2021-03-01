@@ -21,6 +21,7 @@ public class basico03 {
         chute = sorteador.nextInt(999999);
         while(chute!=senha){
             tentativas++;
+            System.out.println("Ainda não quebramos: "+ tentativas);
             chute = sorteador.nextInt(999999);
         }
         System.out.println("Parabens vc é um cracker!!");
